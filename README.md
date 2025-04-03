@@ -1,12 +1,12 @@
 ![image](https://github.com/user-attachments/assets/f11f5d3a-4bc3-4ead-ba16-23fee96c62ab)
 # Automated Remote Observatory Control &amp; Guard
 
-ARO-Master is a project to implement an affordable and easy to build remote control system for Automated Remote/Robotic Observatories.
+***ARO-Master*** is a project to implement an affordable and easy to build remote control system for Automated Remote/Robotic Observatories.
 It's composed of two components:
 
-### ARO-Master control box:
+### ***ARO-Master*** control box:
 Hardware & firmware that implement the server/daemon for Observatory control (remote and local). This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control user login, control the Piers etc.
-### Pier-Relays box:
+### ***Pier-Relays*** box:
 Relays box for each pier that connected to ARO-Master, allows you to turn on and off the equipment (mount, PC, power box, etc.) 
 
 ## License:
@@ -15,7 +15,7 @@ There will be a commercial version that can be purchased as a kit or already ass
 
 ## Overview:
 I started this project in 2015 and to date it has undergone several developments in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features.
-The current version uses a **Raspberry PI 4** with at least 2GB of memory for the **ARO-Master box** and uses **RP2350** microcontrollers for the **Pier-Relay box**.
+The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2350** microcontrollers for the ***Pier-Relay box*** .
 
 This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
 
@@ -24,14 +24,14 @@ This system is in use in my personal observatories and those of some colleagues,
 - Accessible from anywhere
 - OS independent using Windows, Linux, Android or Mac browser
 - Auto firmware updates
-- Provide an Wifi Access Point
+- Provides a Wi-Fi hotspot
 - No need for extra Wifi router for connecting you Wifi devices (IP camera, Smart Plugs, etc) to the Internet 
-- Direct integration with uAstro SkyPatroll (MSP) or uAstro Weather Station (MWS)
+- Direct integration with _uAstro SkyPatroll_ (MSP) or _uAstro Weather Station_ (MWS)
 ### Alpaca Daemon for Multiclient and MultDevice
 - Alpaca Discovery aware (no setup or configuration needed)
-- Implements  Dome, Switch (one for eatch pier), ObservingConditions and  SafetyMonitor
-- No need to instal ASCOM drivers
-- Devices can be access simultaneously from different computers
+- Implements Alpaca devices Dome, Switch (one for each pier), ObservingConditions and  SafetyMonitor
+- No need to install ASCOM drivers
+- Devices can be accessed simultaneously from different computers
 - OS agnostic, works with Windows, Linux, Android, Mac OS, etc
 ### Faults monitoring
 - Mains voltage
@@ -46,8 +46,8 @@ This system is in use in my personal observatories and those of some colleagues,
 ### Other functionalities
 - Watchdog reboots system on hardware/software fails
 - Sends Email on Fault or roof open/close
-- Coller Fan & heater control 
-- Up Time. Number of minutes since the controller booted up last
+- _ARO-Master box_ internal cool fan and heater control
+- Up Time, number of minutes since the controller was initialized
 ### Users/Piers control
 - Up to 8 piers  (one user per ‘pier’)
 - Internet control of pier relays (4 relays per pier, 110/220v 10A per relay)
@@ -59,7 +59,7 @@ This system is in use in my personal observatories and those of some colleagues,
 ### Roof/shutter Safety – Automatic close on:
 - Power fail (Mains or Battery)
 - Meteo event (rain, wind, lumens, clouds)
-- External signal input (first-party control)
+- External signal input (third-party control)
 - Optional close at Astronomical Sunrise
 ### Roof/shutter Safety – Prevent open if:
 - If ‘Emergency’ button pressed
@@ -68,12 +68,14 @@ This system is in use in my personal observatories and those of some colleagues,
 - No Users logged in
 - No Internet detected
 ### Roof/shutter Control
+- Internal high current H-Bridge for DC motor control
 - Manual Open and Close buttons
 - Manual Emergency/stop button
-- Roof moviment Timeout, if no position reatched (ex: limit switch fails) in the givem time them stop motor
-- Roof response Timeout, if no actual movemmente (ex: motor stall, limit switch fails, etc) in the givem time them stop motor
-- Internal PWM motor control with programable Frequency, Start Duty, Max Duty, Acell ramp
-- External (first-party) motor control using relay signals
+- Roof open/close limit switch sensor input
+- Roof moviment Timeout, if no position reatched (ex: limit switch fails) in the given time then stop motor
+- Roof response Timeout, if no movement (ex: motor stall, jammed rack & pinion, blocked roof, etc) in the given time then stop motor
+- Internal PWM motor control with programable _Frequency_, _Start Duty_, _Max Duty_ and _Acceleration_
+- External (third-party) motor control using relay signals
 ### Power suply & UPS
 - Switching 12v power supply with 350W
 - Integrated UPS for interrupted motor operation
