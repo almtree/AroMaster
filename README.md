@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/f11f5d3a-4bc3-4ead-ba16-23fee96c62ab)
-# Automated Remote Observatory Control &amp; Guard
+# Automated Remote Roll-Off-Roof Observatory Control &amp; Guard
 
 ***ARO-Master*** is a project to implement an affordable and easy to build remote control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof**.
 It's composed of two components:
