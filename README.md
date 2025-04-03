@@ -61,7 +61,7 @@ This system is in use in my personal observatories and those of some colleagues,
 - Meteo event (rain, wind, lumens, clouds)
 - External signal input (first-party control)
 - Optional close at Astronomical Sunrise
-### Roof/shutter Safety – Prevent open on:
+### Roof/shutter Safety – Prevent open if:
 - If ‘Emergency’ button pressed
 - Setup option ‘Enabled’ is not active
 - No Meteo source present
