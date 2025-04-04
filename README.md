@@ -80,6 +80,7 @@ This system is in use in my personal observatories and those of some colleagues,
 - Switching 12v power supply with 350W
 - Integrated UPS for interrupted motor operation
 - Integrated battery charger (external battery)
+- **Closes the roof securely even in the event of a complete power failure**
 
 # Considerations on telescopes and observatory design
 > [!IMPORTANT]
