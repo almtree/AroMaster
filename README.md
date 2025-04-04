@@ -51,7 +51,7 @@ This system is in use in my personal observatories and those of some colleagues,
 - _ARO-Master box_ internal cool fan and heater control
 - Up Time, number of minutes since the controller was initialized
 ### Users/Piers control
-- Up to 8 piers  (one user per ‘pier’)
+- Up to 6 piers  (one user per ‘pier’)
 - Internet control of pier relays (4 relays per pier, 110/220v 10A per relay)
 - No need for third-party ‘smart Wifi plugs’
 - Relay reset with timed rearm
