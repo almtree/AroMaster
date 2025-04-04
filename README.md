@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/f11f5d3a-4bc3-4ead-ba16-23fee96c62ab)
 # Automated Roll-Off-Roof Observatory Control &amp; Guard
 
-***ARO-Master*** implements an affordable and integrated control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof** design or _non-rotating Clamshell Domes_.
+***ARO-Master*** is an affordable and integrated control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof**  or non-rotating **Clamshell Domes** design.
 
 In addition to sliding _Roof_ movement management and _Pier_ management, one of the essential requirements was the need to close the roof even when the power supply fails, for this purpose an integrated switching power supply (SMPS) + uninterruptible power supply (UPS) + battery management system (BMS) system was used, along with a simple 12V external battery (Gel, AGM, Acid), which allows security for remote operation.
 
@@ -88,6 +88,6 @@ This system is in use in my personal observatories and those of some colleagues,
 > [!IMPORTANT]
 > Since this system can also be used in an observatory with several independent piers and mounts, it is no longer practical to park one/all the mounts before moving the roof.
 > Therefore, the design of the observatory's sliding roof system must take into account the possibility of moving it regardless of the position of the telescopes, typically mounting the ceiling at a height that does not interfere with any of the installed OTAs, or using lower piers.
->  
+> In Clamshell Domes type observatories the design itself allows the dome to be opened and closed without any concern about the OTA position.
 
 
