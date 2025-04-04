@@ -9,7 +9,7 @@ Main components are:
 ### ***ARO-Master*** control box
 Hardware & firmware that implement the server/daemon for Observatory control (remote and local). This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control user login, control the Piers etc.
 ### ***Pier-Relays*** box <sup>optional</sup>
-Relays box for each _Pier_ that is connected to ARO-Master, allows you to turn on and off the equipment (mount, PC, power box, etc.). Up to 8 _Piers_ can coexist at the same observatory (technically it is possible to expand the system to use up to 64 _Piers_, but as an observatory for this number of piers implies a larger and much heavier sliding roof a substantial upgrade to the roof motor and power system will be necessary).
+Relays box for each _Pier_ that is connected to ARO-Master, allows you to turn on and off the equipment (mount, PC, power box, etc.). Up to 6 _Piers_ can coexist at the same observatory (this limit is a practical matter, technically it is possible to expand the system to use up to 64 _Piers_, but an observatory with more piers implies a larger and heavier sliding roof which will require a more powerful motor and greater power supply requirements).
 
 ## License
 When I made the decision to share this project I intended to make it public, but recent developments have changed that intention. So, for now I will share the firmware only in its compiled form (without the sources) and the hardware schematics are provided as reference material only.
