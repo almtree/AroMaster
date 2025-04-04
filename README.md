@@ -1,8 +1,9 @@
 ![image](https://github.com/user-attachments/assets/f11f5d3a-4bc3-4ead-ba16-23fee96c62ab)
-# Automated Roll-Off-Roof Observatory Control &amp; Guard
+# Automated Remote Observatory Control &amp; Guard
 
 ***ARO-Master*** is an affordable and integrated control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof**  or non-rotating **Clamshell Domes** design.
 
+A _***Remote*** Observatory_ is any observatory that can be operated without a physical presence near the equipment, whether the user is in the next room or on the other side of the planet. Of course, if the user is in the next room, he can more easily resolve any problem/emergency that arises, on the other hand if you are on the other side of the planet things are more complicated, in the development of _Aro-Master_ we tried to take this into account.    
 In addition to sliding _Roof_ movement management and _Pier_ management, one of the essential requirements was the need to close the roof even when the power supply fails, for this purpose an integrated switching power supply (SMPS) + uninterruptible power supply (UPS) + battery management system (BMS) system was used, along with a simple 12V external battery (Gel, AGM, Acid), which allows security for remote operation.
 
 Main components are:
