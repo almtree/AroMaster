@@ -3,13 +3,13 @@
 
 ***ARO-Master*** implements an affordable and integrated control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof** design.
 
-In addition to sliding roof movement management and pier management, one of the essential requirements was the need to close the roof even when the power supply fails, for this purpose an integrated switching power supply (SMPS) + uninterruptible power supply (UPS) + battery management system (BMS) system was used, along with a simple 12V external battery (Gel, AGM, Acid), which allows security for remote operation.
+In addition to sliding _Roof_ movement management and _Pier_ management, one of the essential requirements was the need to close the roof even when the power supply fails, for this purpose an integrated switching power supply (SMPS) + uninterruptible power supply (UPS) + battery management system (BMS) system was used, along with a simple 12V external battery (Gel, AGM, Acid), which allows security for remote operation.
 
 Main components are:
 ### ***ARO-Master*** control box
 Hardware & firmware that implement the server/daemon for Observatory control (remote and local). This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control user login, control the Piers etc.
 ### ***Pier-Relays*** box <sup>optional</sup>
-Relays box for each pier that connected to ARO-Master, allows you to turn on and off the equipment (mount, PC, power box, etc.) 
+Relays box for each _Pier_ that is connected to ARO-Master, allows you to turn on and off the equipment (mount, PC, power box, etc.). Up to 8 _Piers_ can coexist at the same observatory (technically it is possible to expand the system to use up to 64 _Piers_, but as an observatory for this number of piers implies a larger and much heavier sliding roof a substantial upgrade to the roof motor and power system will be necessary).
 
 ## License
 When I made the decision to share this project I intended to make it public, but recent developments have changed that intention. So, for now I will share the firmware only in its compiled form (without the sources) and the hardware schematics are provided as reference material only.
