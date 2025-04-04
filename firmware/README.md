@@ -1,1 +1,1 @@
-# Currente version
+# Firmware lastest version: V1.7
