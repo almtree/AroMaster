@@ -16,7 +16,7 @@ When I made the decision to share this project I intended to make it public, but
 There will be a commercial version that can be purchased as a kit or already assembled, in addition to the two electronic components mentioned (***ARO-Master box*** & ***Pier-Relays box***) there is also extra hardware that can be purchased by end users, such as the rack and pinion and motor for roof movement.
 
 ## Overview
-I started this project in 2015 and to date it has undergone several developments in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features.
+I started this project in 2015 and to date it has undergone several upgrades in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features.
 The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .
 
 This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
