@@ -2,8 +2,8 @@
 # Automated Roll-Off-Roof Observatory Control &amp; Guard
 
 ***ARO-Master*** is a project to implement an affordable and easy to build control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof** design.
-Main components are:
 
+Main components are:
 ### ***ARO-Master*** control box:
 Hardware & firmware that implement the server/daemon for Observatory control (remote and local). This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control user login, control the Piers etc.
 ### ***Pier-Relays*** box <sup>optional</sup>:
