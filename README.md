@@ -15,7 +15,7 @@ There will be a commercial version that can be purchased as a kit or already ass
 
 ## Overview
 I started this project in 2015 and to date it has undergone several developments in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features.
-The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2350** microcontrollers for the ***Pier-Relay box*** .
+The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .
 
 This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
 
