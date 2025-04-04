@@ -84,7 +84,7 @@ This system is in use in my personal observatories and those of some colleagues,
 
 # Considerations on telescopes and observatory design
 > [!IMPORTANT]
-> Since this system can also be used in an observatory with several independent piers and mounts, it is no longer practical to park on/all the mounts before moving the roof.
+> Since this system can also be used in an observatory with several independent piers and mounts, it is no longer practical to park one/all the mounts before moving the roof.
 > Therefore, the design of the observatory's sliding roof system must take into account the possibility of moving it regardless of the position of the telescopes, typically mounting the ceiling at a height that does not interfere with any of the installed OTAs, or using lower piers.
 >  
 
