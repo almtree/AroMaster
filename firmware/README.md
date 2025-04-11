@@ -18,7 +18,7 @@ sudo nano /boot/firmware/config.txt
 sudo /home/aro-daemon/aro-d
 ```
 
-The final version of the file `/boot/firmware/config.txt` should look like this:
+- The final version of the file `/boot/firmware/config.txt` should look like this:
 ```
 #!/bin/sh -e
 #
