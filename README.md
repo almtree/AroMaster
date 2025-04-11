@@ -91,12 +91,9 @@ This system is in use in my personal observatories and those of some colleagues,
 > In Clamshell Domes type observatories the design itself allows the dome to be opened and closed without any concern about the OTA position.
 
 ## What's next?
-### Plase take a look ate the [Hardware section](https://github.com/almtree/aro-master/tree/main/hardware) and then the [Software/Firnware section](https://github.com/almtree/aro-master/tree/main/firmware)
+### Plase take a look ate the [Hardware section](https://github.com/almtree/aro-master/tree/main/hardware) and then the [Software/Firmware section](https://github.com/almtree/aro-master/tree/main/firmware)
 
-
-
-... 
-
-
-
-
+.
+.
+.
+.
