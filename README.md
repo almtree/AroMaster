@@ -10,7 +10,7 @@ This is a project that tries to maintain the KISS philosophy as much as possible
 The software was written in C++ (no, it does not use "arduinos" or interpreted languages, nor copy & paste code without any verification, nor a huge amount of libs made by no one knows exactly who or what type of code they contain) and it doesn't even have dependencies on other libs besides the normal Linux ones. The PCB board and electronic schematics were designed with Eagle 6, PCB boards can be obtained directly from me or ordered directly from one of the many board manufacturers.
 Below in the licensing section you can read more information on how to obtain the firmware and the complete assembled version of ARO-Master.
 
-Main components are:
+##Main components are:
 ### ***ARO-Master*** control box
 Hardware & firmware that implement the server/daemon for Observatory control (remote and local).  
 This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control user login, control the Piers etc.
