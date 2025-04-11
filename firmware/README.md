@@ -10,8 +10,8 @@ I won't go into details on how to set up the Raspberry Pi (take a look here: htt
 > The _Assembled version_ of the ARO-Master Box comes with all hardware and software already installed
 
 ### The web page consists of
-- System data
-- Weather data
+- System data info
+- Weather data info
 - Setup and configuration
 - Image from the sky camera (if available)
 - Meteo satellite image
