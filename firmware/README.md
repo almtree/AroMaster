@@ -6,6 +6,8 @@ Once connected to your LAN (your home or local network) one can access the ARO-M
 
 I won't go into details on how to set up the Raspberry Pi (take a look here: https://www.raspberrypi.com/software/), the requirements are basically a ***Raspberry Pi 4*** with at least ***2GB RAM*** and Raspberry Pi OS installed.
 
+> [!NOTE]
+> The Assembly version" of the ARO-Master Box comes with all hardware and software already installed
 
 ### The web page consists of
 - System data
