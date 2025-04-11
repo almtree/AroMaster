@@ -2,7 +2,10 @@
 
 The **Aro-Master** software/firmware runs as a '_daemon_' (a computer program that runs as a background process) on the Raspberry Pi and exposes its UI (user interface) through the embedded web-server.
 
-Once connected to your PLAN (your home or local network) one can access the ARO-Master web-server using a web browser (that supports HTML 5) using the URL **http://aro.local** or **http://aro.home**.
+Once connected to your LAN (your home or local network) one can access the ARO-Master web-server using a web browser (that supports HTML 5) using the URL **http://aro.local** or **http://aro.home**.
+
+I won't go into details on how to set up the Raspberry Pi (take a look here: https://www.raspberrypi.com/software/), the requirements are basically a ***Raspberry Pi 4*** with at least ***2GB RAM*** and Raspberry Pi OS installed.
+
 
 ### The web page consists of
 - System data
