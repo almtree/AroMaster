@@ -7,7 +7,7 @@ Once connected to your LAN (your home or local network) one can access the ARO-M
 I won't go into details on how to set up the Raspberry Pi (take a look here: https://www.raspberrypi.com/software/), the requirements are basically a ***Raspberry Pi 4*** with at least ***2GB RAM*** and Raspberry Pi OS installed, it's assumed that you have an basic understanding of how to access and use Linux on a Raspberry Pi, including how to use the command line to edit some text.
 
 - Download the zip file with the latest firmware
-- Extract the contents to that file to `/home` folder on the Rpi
+- Extract the contents off that file to `/home` folder on the Rpi
 - There will be created a folder with the name `/home/aro-master`
 - Edit the `config.txt` file located in `/boot/firmware`
 ```
@@ -17,7 +17,6 @@ sudo nano /boot/firmware/config.txt
 ```
 sudo /home/aro-daemon/aro-d
 ```
-
 - The final version of the file `/boot/firmware/config.txt` should look like this:
 ```
 #!/bin/sh -e
