@@ -85,14 +85,15 @@ This system is in use in my personal observatories and those of some colleagues,
 - Integrated battery charger (external battery)
 - **Closes the roof securely even in the event of a complete power failure**
 
-## Considerations on telescopes and observatory design
 > [!IMPORTANT]
 > Since this system can also be used in an observatory with several independent piers and mounts, it is no longer practical to park one/all the mounts before moving the roof.
 > Therefore, the design of the observatory's sliding roof system must take into account the possibility of moving it regardless of the position of the telescopes, typically mounting the ceiling at a height that does not interfere with any of the installed OTAs, or using lower piers.  
 > In Clamshell Domes type observatories the design itself allows the dome to be opened and closed without any concern about the OTA position.
 
 ## What's next?
-Plase take a look ate the [Hardware section](https://github.com/almtree/aro-master/tree/main/hardware) and then the [Software/Firnware section](https://github.com/almtree/aro-master/tree/main/firmware)
+### Plase take a look ate the [Hardware section](https://github.com/almtree/aro-master/tree/main/hardware) and then the [Software/Firnware section](https://github.com/almtree/aro-master/tree/main/firmware)
+
+
 
 ... 
 
