@@ -4,7 +4,16 @@ The **Aro-Master** software/firmware runs as a '_daemon_' (a computer program th
 
 Once connected to your LAN (your home or local network) one can access the ARO-Master web-server using a web browser (that supports HTML 5) using the URL **http://aro.local** or **http://aro.home**.
 
-I won't go into details on how to set up the Raspberry Pi (take a look here: https://www.raspberrypi.com/software/), the requirements are basically a ***Raspberry Pi 4*** with at least ***2GB RAM*** and Raspberry Pi OS installed.
+I won't go into details on how to set up the Raspberry Pi (take a look here: https://www.raspberrypi.com/software/), the requirements are basically a ***Raspberry Pi 4*** with at least ***2GB RAM*** and Raspberry Pi OS installed, it's assumed that you have an basic understanding of how to access and use Linux on a Raspberry Pi, including how to use the command line to edit some text.
+
+- Download the zip file with the latest firmware
+- Extract the contents to that file to `/home` folder on the Rpi
+- There will be created a folder with the name `/home/aro-master`
+- Edit the `config.txt` file located in `/boot/firmware`
+```
+sudo nano /boot/firmware/config.txt
+```
+
 
 > [!NOTE]
 > The _Assembled version_ of the ARO-Master Box comes with all hardware and software already installed
