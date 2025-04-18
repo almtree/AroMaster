@@ -57,14 +57,4 @@ After that you should be able to access the web-page using the URL **http://aro.
 
 The interface is supposed to be self-explanatory ... but sometimes there is a great distance between the 'supposed' and the reality, please let me know if you have any questions using  [GitHub Discussions](https://github.com/almtree/aro-master/discussions).
 
-
-![firm_06](https://github.com/user-attachments/assets/156c094b-b79d-4d6f-9731-3b979528e2fb)
-
-![firm_05](https://github.com/user-attachments/assets/6640d7d3-6aa2-4a54-b58c-dbec4bc60434)
-
-![firm_04](https://github.com/user-attachments/assets/3fb8d5a0-7e9e-4977-8a98-c028b906dfed)
-
-![firm_03](https://github.com/user-attachments/assets/e4367bbc-c2fe-441b-b787-2fd4c20e3e1e)
-
-
-
+![Screenshot of a comment on a GitHub](images/firm_01n.png)
