@@ -6,4 +6,4 @@ Below is a diagram that gives an idea of ​​the hardware components of the **
 > [!NOTE]
 > More information on connections, boards and component assembly coming soon
 
-![ARO-Master-v4_drawio](https://github.com/user-attachments/assets/201b2f38-6f65-4821-b3c3-a90459cbf699)
+![ARO-Master-v4](https://github.com/user-attachments/assets/10174e22-d282-4e95-83ba-8857fb7c7c3b)
