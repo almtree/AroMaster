@@ -5,13 +5,6 @@ Below is a diagram that gives an idea of ​​the hardware components of the **
 
 > [!IMPORTANT]
 > 22-05-2025 - just received a new batch of control boards, they are not populated with the headers yet... I will solder them and will soon post pictures and more development.
-
-> [!NOTE]
-> More information on connections, boards and component assembly coming soon
-
-
-
-> [!NOTE]
-> More information on connections, boards and component assembly coming soon
+> ... More information on connections, boards and component assembly coming soon.
 
 ![ARO-Master-v4](https://github.com/user-attachments/assets/10174e22-d282-4e95-83ba-8857fb7c7c3b)
