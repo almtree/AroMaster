@@ -3,6 +3,14 @@
 The latest version of the ARO-Master control board is **V4**, it's a hat for the _Raspberry Pi 4_.
 Below is a diagram that gives an idea of ​​the hardware components of the ***ARO-Master box*** and their connections.
 
+> [!IMPORTANT]
+> 22-05-2025 - just received a new batch of control boards, they are not populated with the headers yet... I will solder them and will soon post pictures and more development.
+
+> [!NOTE]
+> More information on connections, boards and component assembly coming soon
+
+
+
 > [!NOTE]
 > More information on connections, boards and component assembly coming soon
 
