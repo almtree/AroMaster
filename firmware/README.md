@@ -6,6 +6,7 @@
 >- The "pier relays" were reduced to 4 relays per pier.
 >- Rpi fan control added
 >- Serial communication with a dedicated weather station (requires V4 boards)
+>- New ALPACA Switch implementation that combines the 'Pier relays' and the 'System relays'
 
 
 The **Aro-Master** software/firmware runs as a '_daemon_' (a computer program that runs as a background process) on the Raspberry Pi and exposes its UI (user interface) through the embedded web-server.
