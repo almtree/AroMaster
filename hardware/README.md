@@ -19,7 +19,8 @@ There are some significant differences between V3 and V4, so I will update the f
 #### The Result
 
 -EasyEda 3D image of the planned board<br/>
-![board_v4_plane_02](https://github.com/user-attachments/assets/641300d0-2482-46dc-8d83-aa3d46941b3a)
+![board_v4_plane_03](https://github.com/user-attachments/assets/97296555-8539-44fb-86bc-b53dd461ccf7)
+
 <br/>
 <br/>
 -Actual final board with the Rpi already connected<br/>
