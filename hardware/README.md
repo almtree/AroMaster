@@ -16,12 +16,12 @@ There are some significant differences between V3 and V4, so I will update the f
 
 
 
-#### The final result with the Rpi already connected
+#### The Result
 
-
-(EasyEda 3D image of the planed board)
-![board_v4_plane_01](https://github.com/user-attachments/assets/1c32c2ae-460f-4d4b-94dd-bf17e6da89f8)
-
-(actual final board with the Rpi already connected)
+-EasyEda 3D image of the planed board<br/>
+![board_v4_plane_02](https://github.com/user-attachments/assets/641300d0-2482-46dc-8d83-aa3d46941b3a)
+<br/>
+<br/>
+-Actual final board with the Rpi already connected<br/>
 ![board_v4_build_01](https://github.com/user-attachments/assets/d0a5bb7c-16ca-4e45-aaa0-7f3a1c22d6b7)
 
