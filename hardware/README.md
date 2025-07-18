@@ -24,5 +24,7 @@ There are some significant differences between V3 and V4, so I will update the f
 <br/>
 <br/>
 -Actual final board with the Rpi already connected<br/>
+
+
 ![board_v4_build_01](https://github.com/user-attachments/assets/bbc1eea5-3fc5-46e5-8d81-5a3dfb1f3fce)
 
