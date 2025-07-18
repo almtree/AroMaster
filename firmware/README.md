@@ -1,7 +1,7 @@
 # Firmware lastest version: V1.8
 
 > [!NOTE]
-> 18-06-2025 Changes on V1.8
+> 18-06-2025 new V1.8
 >- Adds the observatory "Ventilation" feature, requires V4 boards since an extra input is needed for the vent position sensor.
 >- The "pier relays" were reduced to 4 relays per pier.
 >- Rpi fan control added
