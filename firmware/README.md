@@ -9,7 +9,7 @@
 >- New "log" console frame in the Webpage shows activity information and messages.
 >- New content layout in some Webpage frames
 >- New "Pier Session" control and auto ON/OFF relays sequence  
->- The system will only allow 4 pier per location, and only 4 relays per pier. (contact me if this is not enough)
+>- The system will now only control 4 pier per location, and only 4 relays per pier. (contact me if this is not enough)
 
 
 The **Aro-Master** software/firmware runs as a '_daemon_' (a computer program that runs as a background process) on the Raspberry Pi and exposes its UI (user interface) through the embedded web-server.
