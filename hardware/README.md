@@ -17,6 +17,10 @@ There are some significant differences between V3 and V4, so I will update the f
 
 
 #### The final result with the Rpi already connected
+(top - EasyEda 3D image of the planed board)
+
+![board_v4_plane_01](https://github.com/user-attachments/assets/1c32c2ae-460f-4d4b-94dd-bf17e6da89f8)
+
 
 ![board_v4_build_01](https://github.com/user-attachments/assets/d0a5bb7c-16ca-4e45-aaa0-7f3a1c22d6b7)
 
