@@ -3,12 +3,13 @@
 > [!NOTE]
 > 18-06-2025 new V1.8 firmare/software
 >- Adds the observatory "Ventilation" feature, requires V4 boards since an extra input is needed for the vent position sensor.
->- The "pier relays" were reduced to 4 relays per pier.
 >- Rpi fan control added.
 >- Serial communication with a dedicated weather station (requires V4 boards).
 >- New ALPACA Switch implementation that combines the 'Pier relays' and the 'System relays'.
 >- New "log" console frame in the Webpage shows activity information and messages.
 >- New content layout in some Webpage frames
+>- New "Pier Session" control and auto ON/OFF relays sequence  
+>- The system will only allow 4 pier per location, and only 4 relays per pier. (contact me if this is not enough)
 
 
 The **Aro-Master** software/firmware runs as a '_daemon_' (a computer program that runs as a background process) on the Raspberry Pi and exposes its UI (user interface) through the embedded web-server.
