@@ -5,7 +5,7 @@
 >- Adds the observatory "Ventilation" feature, requires V4 boards since an extra input is needed for the vent position sensor.
 >- The "pier relays" were reduced to 4 relays per pier.
 >- Rpi fan control added
->- Serial communication with a dedicated weather station
+>- Serial communication with a dedicated weather station (requires V4 boards)
 
 
 The **Aro-Master** software/firmware runs as a '_daemon_' (a computer program that runs as a background process) on the Raspberry Pi and exposes its UI (user interface) through the embedded web-server.
