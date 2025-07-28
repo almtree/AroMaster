@@ -8,7 +8,7 @@ In addition to sliding _Roof_ movement management and _Pier_ management, one of 
 
 This is a project that tries to maintain the KISS philosophy as much as possible, without the usual mess of folders and files in the Github repository as sometimes happens, especially when it comes to software/firmware.  
 The software was written in C/C++ (no, it does not use "arduinos" or interpreted languages byte-code or not, nor _copy & paste code_ from others, nor a huge amount of libs made by no one knows exactly who or what type of code they contain) and it doesn't even have dependencies on other libs besides the normal Linux ones. Remote control must be taken very seriously, all code must be fully under our control and be fail proof.  
-The PCB board and electronic schematics were designed with Eagle 6, PCB boards can be obtained directly from me or ordered directly from one of the many board manufacturers.
+The PCB board and electronic schematics were designed with Eagle 6 and EasyEDA, PCB boards can be obtained directly from me or ordered directly from one of the many board manufacturers.
 Below in the licensing section you can read more information on how to obtain the firmware and the complete assembled version of ARO-Master.
 
 ## Main components are:
