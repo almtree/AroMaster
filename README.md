@@ -3,7 +3,7 @@
 
 ***ARO-Master*** is an affordable and integrated control system for ***Automated Remote/Robotic Observatories*** with **Roll-Off-Roof** or non-rotating **Clamshell Domes** design.
 
-A _***Remote*** Observatory_ is any observatory that can be operated without a physical presence near the equipment, whether the user is in the next room or on the other side of the planet. Of course, if the user is in the next room, he can more easily resolve any problem/emergency that arises, on the other hand if you are on the other side of the planet things are more complicated, in the development of _Aro-Master_ we tried to take this into account.    
+A _***Remote*** Observatory_ is any observatory that can be operated without a physical presence near the equipment, whether the user is in the next room or on the other side of the planet. Of course, if the user is in the next room, any problems that arises can be more easily resolved, on the other hand if you are on the other side of the planet things are more complicated, in the development of _Aro-Master_ we tried to take this into account.    
 In addition to sliding _Roof_ movement management and _Pier_ management, one of the essential requirements was the need to close the roof even when the power supply fails, for this purpose an integrated switching power supply (SMPS) + uninterruptible power supply (UPS) + battery management system (BMS) system was used, along with a simple 12V external battery (Gel, AGM, Acid), which allows security for remote operation.
 
 This is a project that tries to maintain the KISS philosophy as much as possible, without the usual mess of folders and files in the Github repository as sometimes happens, especially when it comes to software/firmware.  
