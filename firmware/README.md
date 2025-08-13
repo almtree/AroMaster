@@ -1,6 +1,15 @@
 # Firmware lastest version: V1.8
 
 > [!NOTE]
+> 10-08-2025 V2.0 firmare/software
+> Redesigned web server interface
+> We now use Bootstrap v5.3 frontend
+> Added webcam support for local observatory camera 
+> Added ASI camera for local observatory camera
+> ...more information about V2 coming soon
+
+
+> [!NOTE]
 > 18-06-2025 new V1.8 firmare/software
 >- Adds the observatory "Ventilation" feature, requires V4 boards since an extra input is needed for the vent position sensor.
 >- Rpi fan control added.
@@ -8,7 +17,6 @@
 >- New ALPACA Switch implementation that combines the 'Pier relays' and the 'System relays'.
 >- New "log" console frame in the Webpage shows activity information and messages.
 >- New content layout in some Webpage frames
->- New "Pier Session" control and auto ON/OFF relays sequence  
 >- The system will now only control 4 pier per location, and only 4 relays per pier. (contact me if this is not enough)
 
 
