@@ -14,7 +14,7 @@ This system is in use in my personal observatories and those of some colleagues,
 
 ## ***ARO-Master*** box
 The main component, contains the electronics and plugs for connecting external components (motor, limit switches, battery, etc.)
--
+
 
 
  This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
