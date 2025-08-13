@@ -6,7 +6,7 @@
 > Added ASI camera for local observatory camera
 > ...more information about V2 coming soon
 
-# Firmware lastest version: V1.8
+# Firmware version: V1.8
 > [!NOTE]
 > 18-06-2025 new V1.8 firmare/software
 >- Adds the observatory "Ventilation" feature, requires V4 boards since an extra input is needed for the vent position sensor.
