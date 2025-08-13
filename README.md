@@ -16,12 +16,13 @@ This system is in use in my personal observatories and those of some colleagues,
 The main component, contains the electronics and plugs for connecting external components (motor, limit switches, battery, etc.) 
 
 ### Hardware features
-- Switching power supply + UPS + BMS. **Can close roof even on mains power failure**
+- Switching power supply + UPS + BMS
+- **Can close roof even on mains power failure** (needs external battery)
 - High power DC motor controller
 - Board with 8 relays (used to control system function)
 - 2 relays to control opening and closing with external motor control system (eg: garage motors and similar)
-- **Main control board** attached to an Rpi 4/5
-- 9 inputs (limit switches, position sensors, etc)
+- **Main control board** hat for Rpi 4/5
+- 9 inputs (open limit, close limite, **vent position**, other switches & sensors)
 - Manual Open and Close buttons
 - Manual Emergency/stop button
 - RJ12 for weather station connection and power
@@ -42,7 +43,7 @@ The main component, contains the electronics and plugs for connecting external c
 - Mains voltage
 - Battery voltage
 - Rain or Cloud level
-- Wind speed, temperature, humidity and dew point
+- Wind speed, Temperature, Humidity and Dew point
 - Lux
 - External alarm
 - Logged users
@@ -50,18 +51,19 @@ The main component, contains the electronics and plugs for connecting external c
 - System CPU temperature
 - Sunrise 
 - Motor current
-### Roof/shutter Safety – Automatic close on:
+### Roof/shutter Safety – 'Automatic close' or 'Prevent open' on:
 - Power fail (Mains or Battery)
-- Meteo event (Rain, Wind, Lumens, Clouds)
+- Meteo event (Rain, Humidity, Dew, Wind, Lumens, Clouds)
 - External signal input (third-party control)
 - Optional close at Astronomical Sunrise
-### Roof/shutter Safety – Prevent open if:
+- Optional close if no Weather info
+- Optional close if no Internet
+- Optional close if no Logged users
 - ‘Emergency’ button pressed
 - Setup option ‘Enabled’ is not active
-- No Meteo source present
-- No Internet detected
 ### Roof/shutter Control
 - Roof open/close limit switch sensor input
+- Roof Ventilation position
 - Roof moviment Timeout, if no position reatched (ex: limit switch fails) in the given time then stop motor
 - Roof response Timeout, if no movement (ex: motor stall, jammed rack & pinion, blocked roof, etc) in the given time then stop motor
 - Internal PWM motor control with programable _Frequency_, _Start Duty_, _Max Duty_ and _Acceleration_
@@ -75,17 +77,11 @@ The main component, contains the electronics and plugs for connecting external c
 - Watchdog reboots system on hardware/software fails
 - Sends Email on Fault or roof open/close
 - _ARO-Master box_ internal cool fan and heater control
+- Other input/relay functions can be implemented (requires programming)
 ### Piers power control
 - Depending on the system configuration, up to 32 pier power relays can be controlled.
 - Pier power relay reset with timed rearm (for pier reboot)
-- Auto user logoff timer (turns off all relays)
-- ‘Relay box’ is installed at each pier
-- Daisy-chain UTP cable  pier connection, easy and less cabling
-### Power suply & UPS
-- Switching 12v power supply
-- Integrated UPS for interrupted motor operation
-- Integrated battery charger (external battery)
-- **Closes the roof securely even in the event of a complete power failure**
+- Auto user logoff timer (turns off pier relay)
 
 > [!IMPORTANT]
 > Since this system can also be used in an observatory with several independent piers and mounts, it is no longer practical to park one/all the mounts before moving the roof.
