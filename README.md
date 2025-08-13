@@ -13,8 +13,8 @@ This system is in use in my personal observatories and those of some colleagues,
 **The software/firmware is fully proprietary and written in C/C++, it doesn't have dependencies on external libs or code. Remote control must be taken very seriously, all code must be fully under our control.**
 
 ## ***ARO-Master*** box
-The main component, contains all electronic elements and external connections.
-
+The main component, contains the electronics and plugs for connecting external components (motor, limit switches, battery, etc.)
+-
 
 
  This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
