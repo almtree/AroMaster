@@ -7,13 +7,10 @@ A _***Remote*** Observatory_ is any observatory that can be operated without a p
 In addition to sliding _Roof_ movement management and _Pier power_ management, one of the essential requirements was the need to close the roof even when the power supply fails, for this purpose an integrated switching power supply (SMPS) + uninterruptible power supply (UPS) + battery management system (BMS) system was used, along with a simple 12V external battery (Gel, AGM, Acid), which allows security for remote operation.
 
 ## Overview
-I started this project in 2015 and to date it has undergone several upgrades in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features. The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .  
+This project started in 2015 and to date it has undergone several upgrades in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features. The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .  
 This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
 
-This is a project that tries to maintain the KISS philosophy as much as possible, without the usual mess of folders and files in the Github repository as sometimes happens, especially when it comes to software/firmware.  
-The software was written in C/C++ (no, it does not use "arduinos" or interpreted languages byte-code or not, nor _copy & paste code_ from others, nor a huge amount of libs made by no one knows exactly who or what type of code they contain) and it doesn't even have dependencies on other libs besides the normal Linux ones. Remote control must be taken very seriously, all code must be fully under our control and be fail proof.  
-The PCB board and electronic schematics were designed with Eagle 6 and EasyEDA, PCB boards can be obtained directly from me or ordered directly from one of the many board manufacturers.
-Below in the licensing section you can read more information on how to obtain the firmware and the complete assembled version of ARO-Master.
+_The software/firmware is fully proprietary and written in C/C++, it doesn't have dependencies on external libs or code. Remote control must be taken very seriously, all code must be fully under our control.  _
 
 
 ## Main components are:
