@@ -90,7 +90,6 @@ This system is in use in my personal observatories and those of some colleagues,
 ### Plase take a look ate the [Hardware section](https://github.com/almtree/aro-master/tree/main/hardware) and then the [Software/Firmware section](https://github.com/almtree/aro-master/tree/main/firmware)
 
 ## License
-When I made the decision to share this project I intended to make it public, but recent developments have changed that intention. So, for now I will share the firmware only in its compiled form (without the sources) and the hardware schematics are provided as reference material only.  
-There will be a commercial version that can be purchased as a _kit_ or already _assembled_, in addition to the two electronic components mentioned (***ARO-Master box*** & ***Pier-Relays box***) there is also extra hardware that can be purchased by end users, such as the rack and pinion and motor for roof movement.
+When I made the decision to share this project I intended to make it public, but recent developments have changed that intention. So, for now I will share the firmware only in its compiled form (without the sources) and the hardware schematics are provided as reference material only. There will be a commercial version of the ***ARO-Master box*** that can be purchased, in addition there is also extra hardware that can be purchased by end users, such as the rack and pinion and motor for roof movement.
 .
 .
