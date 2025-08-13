@@ -13,19 +13,25 @@ This system is in use in my personal observatories and those of some colleagues,
 **The software/firmware is fully proprietary and written in C/C++, it doesn't have dependencies on external libs or code. Remote control must be taken very seriously, all code must be fully under our control.**
 
 ## ***ARO-Master*** box
-The main component, contains the electronics and plugs for connecting external components (motor, limit switches, battery, etc.)
+The main component, contains the electronics and plugs for connecting external components (motor, limit switches, battery, etc.) 
 
-
-
- This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
-
- Hardware & firmware that implement the server/daemon for Observatory control (remote and local).  
-This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
-### ***Pier-Relays*** box <sup>optional</sup>
-Relays box for each _Pier_ that allows you to turn on and off the equipment (mount, PC, power box, etc.). This is basically a Smart Plug with the difference that it is controlled by the pier's PC.
-
-
-### Internal firmware Web Server for magement and system setup
+### Hardware features
+- Switching power supply + UPS + BMS, can close roof even on mains power failure.
+- High power DC motor controller
+- Board with 8 relays (used to control system function)
+- 2 relays to control opening and closing with external motor control system (eg: garage motors and similar)
+- **Main control board** attached to an Rpi 4/5
+- 9 inputs (limit switches, position sensors, etc)
+- Open, close and emergency buttons
+- RJ12 for weather station connection and power
+- Case fan, CPU fan control
+- Case heater
+- 4 x ADC for Power, Battery and supply monitoring
+- I2C and UART interaces
+- RJ45 Ethernet 
+- 2 x USB3 
+- 2 x USB2
+### Internal Web Server for magement and system setup
 - No software instalation needed
 - Accessible from anywhere
 - OS independent using Windows, Linux, Android or Mac browser
