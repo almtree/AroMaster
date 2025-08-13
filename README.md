@@ -14,53 +14,50 @@ Below in the licensing section you can read more information on how to obtain th
 ## Main components are:
 ### ***ARO-Master*** control box
 Hardware & firmware that implement the server/daemon for Observatory control (remote and local).  
-This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control user login, control the Piers etc.
+This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
 ### ***Pier-Relays*** box <sup>optional</sup>
-Relays box for each _Pier_ that is connected to ARO-Master, allows you to turn on and off the equipment (mount, PC, power box, etc.).  
+Relays box for each _Pier_ that allows you to turn on and off the equipment (mount, PC, power box, etc.). This is basically a Smart Plug with the difference that it is controlled by the pier's PC.
+
+## Overview
+I started this project in 2015 and to date it has undergone several upgrades in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features. The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .  
+This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
+
 Up to 6 _Piers_ can coexist at the same observatory (this limit is a practical matter, technically it is possible to expand the system to use up to 64 _Piers_, but an observatory with more piers implies a larger and heavier sliding roof which will require a more powerful motor and greater power supply requirements).
 
 ## License
 When I made the decision to share this project I intended to make it public, but recent developments have changed that intention. So, for now I will share the firmware only in its compiled form (without the sources) and the hardware schematics are provided as reference material only.  
 There will be a commercial version that can be purchased as a _kit_ or already _assembled_, in addition to the two electronic components mentioned (***ARO-Master box*** & ***Pier-Relays box***) there is also extra hardware that can be purchased by end users, such as the rack and pinion and motor for roof movement.
 
-## Overview
-I started this project in 2015 and to date it has undergone several upgrades in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features. The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .  
-This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
-
 ### Internal firmware Web Server for magement and system setup
 - No software instalation needed
 - Accessible from anywhere
 - OS independent using Windows, Linux, Android or Mac browser
 - Auto firmware updates
-- Provides a Wi-Fi hotspot
-- No need for extra Wifi router for connecting you Wifi devices (IP camera, Smart Plugs, etc) to the Internet 
 - Direct integration with _uAstro SkyPatroll_ (MSP) or _uAstro Weather Station_ (MWS)
 ### Alpaca Daemon for Multiclient and MultDevice
 - Alpaca Discovery aware (no setup or configuration needed)
-- Implements Alpaca devices Dome, Switch (one for each pier), ObservingConditions and  SafetyMonitor
+- Implements Alpaca devices Dome, Switch (system switches and pier relays), ObservingConditions and SafetyMonitor
 - No need to install ASCOM drivers
 - Devices can be accessed simultaneously from different computers
-- OS agnostic, works with Windows, Linux, Android, Mac OS, etc
 ### Faults monitoring
 - Mains voltage
 - Battery voltage
 - Motor current
-- Weather
+- Weather (rain, clouds)
+- Wind speed, temperature, humidity and dew point
+- Lux
 - External alarm
 - Logged users
 - Internet not available
-- Temperature, humidity and dew point
-- System CPU temperature 
+- System CPU temperature
+- Sunrise 
 ### Other functionalities
 - Watchdog reboots system on hardware/software fails
 - Sends Email on Fault or roof open/close
 - _ARO-Master box_ internal cool fan and heater control
-- Up Time, number of minutes since the controller was initialized
-### Users/Piers control
-- Up to 6 piers  (one user per ‘pier’)
-- Internet control of pier relays (4 relays per pier, 110/220v 10A per relay)
-- No need for third-party ‘smart Wifi plugs’
-- Relay reset with timed rearm
+### Piers power control
+- Depending on the system configuration, up to 32 pier power relays can be controlled.
+- Pier power relay reset with timed rearm (for pier reboot)
 - Auto user logoff timer (turns off all relays)
 - ‘Relay box’ is installed at each pier
 - Daisy-chain UTP cable  pier connection, easy and less cabling
