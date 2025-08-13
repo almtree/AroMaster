@@ -10,8 +10,7 @@ In addition to sliding _Roof_ movement management and _Pier power_ management, o
 This project started in 2015 and to date it has undergone several upgrades in terms of hardware and software. The first version was developed around an STM32-E407 microcontroller but this quickly proved to be insufficient for everything I wanted to implement, both in terms of hardware and firmware features. The current version uses a **Raspberry PI 4** with at least 2GB of memory for the ***ARO-Master box*** and uses **RP2040/RP2350** microcontrollers for the ***Pier-Relay box*** .  
 This system is in use in my personal observatories and those of some colleagues, two of which are located in Tunisia and are remotely controlled from Europe.
 
-_The software/firmware is fully proprietary and written in C/C++, it doesn't have dependencies on external libs or code. Remote control must be taken very seriously, all code must be fully under our control.  _
-
+**The software/firmware is fully proprietary and written in C/C++, it doesn't have dependencies on external libs or code. Remote control must be taken very seriously, all code must be fully under our control.**
 
 ## Main components are:
 ### ***ARO-Master*** control box
