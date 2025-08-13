@@ -16,13 +16,14 @@ This system is in use in my personal observatories and those of some colleagues,
 The main component, contains the electronics and plugs for connecting external components (motor, limit switches, battery, etc.) 
 
 ### Hardware features
-- Switching power supply + UPS + BMS, can close roof even on mains power failure.
+- Switching power supply + UPS + BMS. **Can close roof even on mains power failure**
 - High power DC motor controller
 - Board with 8 relays (used to control system function)
 - 2 relays to control opening and closing with external motor control system (eg: garage motors and similar)
 - **Main control board** attached to an Rpi 4/5
 - 9 inputs (limit switches, position sensors, etc)
-- Open, close and emergency buttons
+- Manual Open and Close buttons
+- Manual Emergency/stop button
 - RJ12 for weather station connection and power
 - Case fan, CPU fan control
 - Case heater
@@ -37,16 +38,10 @@ The main component, contains the electronics and plugs for connecting external c
 - OS independent using Windows, Linux, Android or Mac browser
 - Auto firmware updates
 - Direct integration with _uAstro SkyPatroll_ (MSP) or _uAstro Weather Station_ (MWS)
-### Alpaca Daemon for Multiclient and MultDevice
-- Alpaca Discovery aware (no setup or configuration needed)
-- Implements Alpaca devices Dome, Switch (system switches and pier relays), ObservingConditions and SafetyMonitor
-- No need to install ASCOM drivers
-- Devices can be accessed simultaneously from different computers
 ### Faults monitoring
 - Mains voltage
 - Battery voltage
-- Motor current
-- Weather (rain, clouds)
+- Rain or Cloud level
 - Wind speed, temperature, humidity and dew point
 - Lux
 - External alarm
@@ -54,6 +49,28 @@ The main component, contains the electronics and plugs for connecting external c
 - Internet not available
 - System CPU temperature
 - Sunrise 
+- Motor current
+### Roof/shutter Safety – Automatic close on:
+- Power fail (Mains or Battery)
+- Meteo event (Rain, Wind, Lumens, Clouds)
+- External signal input (third-party control)
+- Optional close at Astronomical Sunrise
+### Roof/shutter Safety – Prevent open if:
+- ‘Emergency’ button pressed
+- Setup option ‘Enabled’ is not active
+- No Meteo source present
+- No Internet detected
+### Roof/shutter Control
+- Roof open/close limit switch sensor input
+- Roof moviment Timeout, if no position reatched (ex: limit switch fails) in the given time then stop motor
+- Roof response Timeout, if no movement (ex: motor stall, jammed rack & pinion, blocked roof, etc) in the given time then stop motor
+- Internal PWM motor control with programable _Frequency_, _Start Duty_, _Max Duty_ and _Acceleration_
+- Internal relays to control external motor systems (eg: garage motors and similar)
+### Alpaca Daemon for Multiclient and MultDevice
+- Alpaca Discovery aware (no setup or configuration needed)
+- Implements Alpaca devices Dome, Switch (system switches and pier relays), ObservingConditions and SafetyMonitor
+- No need to install ASCOM drivers
+- Devices can be accessed simultaneously from different computers
 ### Other functionalities
 - Watchdog reboots system on hardware/software fails
 - Sends Email on Fault or roof open/close
@@ -64,25 +81,6 @@ The main component, contains the electronics and plugs for connecting external c
 - Auto user logoff timer (turns off all relays)
 - ‘Relay box’ is installed at each pier
 - Daisy-chain UTP cable  pier connection, easy and less cabling
-### Roof/shutter Safety – Automatic close on:
-- Power fail (Mains or Battery)
-- Meteo event (rain, wind, lumens, clouds)
-- External signal input (third-party control)
-- Optional close at Astronomical Sunrise
-### Roof/shutter Safety – Prevent open if:
-- If ‘Emergency’ button pressed
-- Setup option ‘Enabled’ is not active
-- No Meteo source present
-- No Internet detected
-### Roof/shutter Control
-- Internal high current H-Bridge for DC motor control
-- Manual Open and Close buttons
-- Manual Emergency/stop button
-- Roof open/close limit switch sensor input
-- Roof moviment Timeout, if no position reatched (ex: limit switch fails) in the given time then stop motor
-- Roof response Timeout, if no movement (ex: motor stall, jammed rack & pinion, blocked roof, etc) in the given time then stop motor
-- Internal PWM motor control with programable _Frequency_, _Start Duty_, _Max Duty_ and _Acceleration_
-- Internal relays to control external motor systems (eg: garage motors and similar)
 ### Power suply & UPS
 - Switching 12v power supply
 - Integrated UPS for interrupted motor operation
