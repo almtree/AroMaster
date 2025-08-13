@@ -12,9 +12,14 @@ This system is in use in my personal observatories and those of some colleagues,
 
 **The software/firmware is fully proprietary and written in C/C++, it doesn't have dependencies on external libs or code. Remote control must be taken very seriously, all code must be fully under our control.**
 
-## Main components are:
-### ***ARO-Master*** control box
-Hardware & firmware that implement the server/daemon for Observatory control (remote and local).  
+## ***ARO-Master*** box
+The main component, contains all electronic elements and external connections.
+
+
+
+ This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
+
+ Hardware & firmware that implement the server/daemon for Observatory control (remote and local).  
 This is the main brains that allows you to connect and control all the equipment, open/close the roof, see weather conditions, see the sky, see the observatory interior, control Piers power etc.
 ### ***Pier-Relays*** box <sup>optional</sup>
 Relays box for each _Pier_ that allows you to turn on and off the equipment (mount, PC, power box, etc.). This is basically a Smart Plug with the difference that it is controlled by the pier's PC.
