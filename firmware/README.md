@@ -27,15 +27,15 @@ I won't go into details on how to set up the Raspberry Pi (take a look here: htt
 - Download the zip file with the latest firmware
 - Extract the contents off that file to `/home` folder on the Rpi
 - There will be created a folder with the name `/home/aro-master`
-- Edit the `config.txt` file located in `/boot/firmware`
+- Edit the `rc.local` file located in `/etc`
 ```
-sudo nano /boot/firmware/config.txt
+sudo nano /etc/rc.local
 ```
 - Add a new line at the bottom immediately before `exit 0` and past the following line of text:
 ```
 sudo /home/aro-daemon/aro-d
 ```
-- The final version of the file `/boot/firmware/config.txt` should look like this:
+- The final version of the file `/etc/rc.local` should look like this:
 ```Bash
 #!/bin/sh -e
 #
