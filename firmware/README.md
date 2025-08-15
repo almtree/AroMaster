@@ -56,7 +56,7 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo /home/paulo/ARO-Daemon/aro-d
+sudo /home/ARO-Daemon/aro-d
 exit 0
 ```
 - Reboot the Raspberry Pi `sudo reboot now`
