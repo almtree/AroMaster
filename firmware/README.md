@@ -27,7 +27,7 @@ I won't go into details on how to set up the Raspberry Pi (take a look here: htt
 - Download the zip file with the latest firmware
 - Extract the contents off that file to `/home` folder on the Rpi
 - There will be created a folder with the name `/home/aro-master`
-- Edit the `rc.local` file located in `/etc`
+- Edit (or create) the `rc.local` file located in `/etc`
 ```
 sudo nano /etc/rc.local
 ```
@@ -59,6 +59,12 @@ fi
 sudo /home/ARO-Daemon/aro-d
 exit 0
 ```
+- Depending on the RPI OS version you may need to also do the following steps:
+  
+```sudo chmod +x /etc/rc.local```
+
+```sudo systemctl enable rc-local.service```
+
 - Reboot the Raspberry Pi `sudo reboot now`
 
 After that you should be able to access the Webpage using the URL **http://aro.local** or **http://aro.home**
